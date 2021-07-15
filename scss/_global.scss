@@ -2,18 +2,26 @@ body {
     font-family: "Noto Sans TC", "微軟正黑體", serif, cursive, ;
 }
 
+// font
 .font-en {
     font-family: "Baloo Tamma 2", cursive;
 }
 
+// border
 .rounded-xl {
     border-radius: 2.5rem;
 }
 
+.border-gray {
+    border-color: #E8E8DB;
+}
+
+// size
 .h-24 {
     height: 24px;
 }
 
+// spacing
 .py-12 {
     padding-top: 12px;
     padding-bottom: 12px;

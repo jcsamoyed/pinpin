@@ -12096,6 +12096,10 @@ body {
   border-radius: 2.5rem;
 }
 
+.border-gray {
+  border-color: #E8E8DB;
+}
+
 .h-24 {
   height: 24px;
 }
