@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -12084,11 +12085,28 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: "Noto Sans TC", "Baloo Tamma 2", serif, cursive;
+  font-family: "Noto Sans TC", "微軟正黑體", serif, cursive;
 }
 
-.index {
-  color: antiquewhite;
+.font-en {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.rounded-xl {
+  border-radius: 2.5rem;
+}
+
+.h-24 {
+  height: 24px;
+}
+
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.product {
+  background: #f8f9fa;
 }
 
 .faq {

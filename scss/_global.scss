@@ -1,3 +1,20 @@
 body {
-    font-family: "Noto Sans TC", "Baloo Tamma 2", serif, cursive, ;
+    font-family: "Noto Sans TC", "微軟正黑體", serif, cursive, ;
+}
+
+.font-en {
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+.rounded-xl {
+    border-radius: 2.5rem;
+}
+
+.h-24 {
+    height: 24px;
+}
+
+.py-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
