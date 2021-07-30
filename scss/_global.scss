@@ -2,12 +2,41 @@ body {
     font-family: "Noto Sans TC", "微軟正黑體", serif, cursive, ;
 }
 
-// font
+// text
 .font-en {
     font-family: "Baloo Tamma 2", cursive;
+    line-height: 1;
+}
+
+.ta-justify {
+    text-align: justify;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.ls-2 {
+    letter-spacing: 2px;
+}
+
+.fs-sm {
+    font-size: 18px;
+}
+
+.fs-xs {
+    font-size: 14px;
+}
+
+.fs-2xs {
+    font-size: 12px;
 }
 
 // border
+.rounded-4 {
+    border-radius: 0.5rem;
+}
+
 .rounded-xl {
     border-radius: 2.5rem;
 }
@@ -17,12 +46,34 @@ body {
 }
 
 // size
+.w-30 {
+    width: 30px;
+}
+
+.h-3 {
+    height: 3px;
+}
+
 .h-24 {
     height: 24px;
 }
+
+.h-30 {
+    height: 30px;
+}
+
 
 // spacing
 .py-12 {
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+.mt-6 {
+    margin-top: 96px;
+}
+
+// background
+.bg-gray {
+    background: #E8E8DB;
 }
