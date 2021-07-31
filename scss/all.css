@@ -12088,6 +12088,16 @@ body {
   font-family: "Noto Sans TC", "微軟正黑體", serif, cursive;
 }
 
+::-moz-selection {
+  background: #FF785E;
+  color: #fff;
+}
+
+::selection {
+  background: #FF785E;
+  color: #fff;
+}
+
 .img-cover {
   width: 100%;
   height: 100%;
@@ -12148,6 +12158,10 @@ body {
 
 .w-30 {
   width: 30px;
+}
+
+.h-1 {
+  height: 1px;
 }
 
 .h-3 {
