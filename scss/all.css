@@ -6628,7 +6628,7 @@ fieldset:disabled .btn {
 .bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="top"] .tooltip-arrow::before {
   top: -1px;
   border-width: 0.4rem 0.4rem 0;
-  border-top-color: #000;
+  border-top-color: #494846;
 }
 
 .bs-tooltip-end, .bs-tooltip-auto[data-popper-placement^="right"] {
@@ -6644,7 +6644,7 @@ fieldset:disabled .btn {
 .bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="right"] .tooltip-arrow::before {
   right: -1px;
   border-width: 0.4rem 0.4rem 0.4rem 0;
-  border-right-color: #000;
+  border-right-color: #494846;
 }
 
 .bs-tooltip-bottom, .bs-tooltip-auto[data-popper-placement^="bottom"] {
@@ -6658,7 +6658,7 @@ fieldset:disabled .btn {
 .bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="bottom"] .tooltip-arrow::before {
   bottom: -1px;
   border-width: 0 0.4rem 0.4rem;
-  border-bottom-color: #000;
+  border-bottom-color: #494846;
 }
 
 .bs-tooltip-start, .bs-tooltip-auto[data-popper-placement^="left"] {
@@ -6674,15 +6674,15 @@ fieldset:disabled .btn {
 .bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^="left"] .tooltip-arrow::before {
   left: -1px;
   border-width: 0.4rem 0 0.4rem 0.4rem;
-  border-left-color: #000;
+  border-left-color: #494846;
 }
 
 .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
-  color: #fff;
+  color: #FFDF65;
   text-align: center;
-  background-color: #000;
+  background-color: #494846;
   border-radius: 0.25rem;
 }
 
@@ -12138,11 +12138,17 @@ body {
 }
 
 .h-24 {
-  height: 24px;
+  height: 20px;
 }
 
 .h-30 {
   height: 30px;
+}
+
+@media (min-width: 992px) {
+  .h-24 {
+    height: 24px;
+  }
 }
 
 .py-12 {
@@ -12158,15 +12164,32 @@ body {
   background: #E8E8DB;
 }
 
+.btn i {
+  -webkit-transition-duration: .15s;
+          transition-duration: .15s;
+}
+
+.btn-primary:hover {
+  background: #FF785E;
+  border-color: #FF785E;
+  color: #fff;
+}
+
+.btn-outline-secondary:hover {
+  background: #FFDF65;
+  border-color: #FFDF65;
+  color: #858377;
+}
+
+.btn-outline-secondary:hover i {
+  color: #FF785E;
+}
+
 .product {
   background: #f8f9fa;
 }
 
 footer {
   background: #494846;
-}
-
-.faq {
-  width: 200px;
 }
 /*# sourceMappingURL=all.css.map */

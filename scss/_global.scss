@@ -55,11 +55,17 @@ body {
 }
 
 .h-24 {
-    height: 24px;
+    height: 20px;
 }
 
 .h-30 {
     height: 30px;
+}
+
+@media (min-width : 992px) {
+    .h-24 {
+        height: 24px;
+    }
 }
 
 

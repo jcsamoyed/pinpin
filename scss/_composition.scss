@@ -1,0 +1,19 @@
+.btn i {
+    transition-duration: .15s;
+}
+
+.btn-primary:hover {
+    background: #FF785E;
+    border-color: #FF785E;
+    color: #fff;
+}
+
+.btn-outline-secondary:hover {
+    background: $primary;
+    border-color: $primary;
+    color: $secondary;
+}
+
+.btn-outline-secondary:hover i {
+    color: #FF785E;
+}

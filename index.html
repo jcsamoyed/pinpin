@@ -74,16 +74,33 @@
                         </div>
                     </div>
                     <div class="d-flex mb-3">
-                        <img src="images/icon_good01.svg" alt="認證標章" class="h-24 me-4">
-                        <img src="images/icon_good02.svg" alt="品質保證" class="h-24 me-4">
-                        <img src="images/icon_good03.svg" alt="原生創意" class="h-24 me-4">
-                        <img src="images/icon_good04.svg" alt="人氣王" class="h-24">
+                        <div class="me-3 me-lg-4">
+                            <img src="images/icon_good01.svg" alt="認證標章" class="h-24" data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="認證標章">
+                            <span class="d-inline-block d-lg-none text-secondary fs-2xs ms-1">認證標章</span>
+                        </div>
+                        <div class="me-3 me-lg-4">
+                            <img src="images/icon_good02.svg" alt="品質保證" class="h-24" data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="品質保證">
+                            <span class="d-inline-block d-lg-none text-secondary fs-2xs ms-1">品質保證</span>
+                        </div>
+                        <div class="me-3 me-lg-4">
+                            <img src="images/icon_good03.svg" alt="原生創意" class="h-24" data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="原生創意">
+                            <span class="d-inline-block d-lg-none text-secondary fs-2xs ms-1">原生創意</span>
+                        </div>
+                        <div class="">
+                            <img src="images/icon_good04.svg" alt="人氣王" class="h-24" data-bs-toggle="tooltip"
+                                data-bs-placement="top" title="人氣王">
+                            <span class="d-inline-block d-lg-none text-secondary fs-2xs ms-1">人氣王</span>
+                        </div>
                     </div>
                     <div class="bg-white rounded-4 border-start border-3 border-primary text-dark-gray px-3 py-2 mb-4">
                         專案募資中！<br>
                         在 <span class="fw-bold">2021/06/14 23:59</span> 募資結束前，您都可以贊助我們！
                     </div>
-                    <a href="#" class="btn btn-primary fs-5 link-dark-gray fw-bold rounded-pill py-12 w-100">贊助專案</a>
+                    <a href="#donate"
+                        class="btn btn-primary fs-5 link-dark-gray fw-bold rounded-pill py-12 w-100">贊助專案</a>
                     <div class="d-flex mt-2">
                         <a href="#"
                             class="btn btn-outline-secondary border-2 fs-5 fw-bold rounded-pill py-12 flex-fill me-2"><i
@@ -96,7 +113,8 @@
             </div>
         </div>
     </section>
-    <section class="list border-top border-bottom border-gray">
+    <!-- Nav -->
+    <section class="list border-top border-bottom border-gray bg-white position-sticky top-0">
         <div class="container">
             <ul class="nav">
                 <li class="nav-item">
@@ -115,6 +133,7 @@
             </ul>
         </div>
     </section>
+    <!-- Content -->
     <section class="content py-5">
         <div class="container">
             <div class="row">
@@ -129,7 +148,7 @@
                     <p class="lh-lg ta-justify">
                         受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
                     </p>
-                    <div class="mt-6">
+                    <div id="donate" class="mt-6">
                         <div class="position-relative">
                             <div class="progress h-3">
                                 <div class="progress-bar bg-primary" role="progressbar" style="width: 100%;"
@@ -181,6 +200,7 @@
                         </form>
                     </div>
                 </div>
+                <!-- Sidebar -->
                 <div class="col-lg-4 ps-lg-4 mt-4 mt-lg-0">
                     <div class="border rounded-4 p-3">
                         <div class="d-flex align-items-center">
@@ -224,7 +244,7 @@
                             <p class="text-secondary ta-justify ls-1 mt-2">
                                 受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
                             </p>
-                            <a href="#"
+                            <a href="#donate"
                                 class="btn btn-primary link-dark-gray fw-bold rounded-pill w-100 py-12">贊助此專案</a>
                         </div>
                     </div>
@@ -246,7 +266,7 @@
                             <p class="text-secondary ta-justify ls-1 mt-2">
                                 受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
                             </p>
-                            <a href="#"
+                            <a href="#donate"
                                 class="btn btn-primary link-dark-gray fw-bold rounded-pill w-100 py-12">贊助此專案</a>
                         </div>
                     </div>
@@ -268,7 +288,7 @@
                             <p class="text-secondary ta-justify ls-1 mt-2">
                                 受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
                             </p>
-                            <a href="#"
+                            <a href="#donate"
                                 class="btn btn-primary link-dark-gray fw-bold rounded-pill w-100 py-12">贊助此專案</a>
                         </div>
                     </div>
@@ -287,6 +307,14 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+
+    <!-- Tooltips JS -->
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
     </script>
 </body>
 
