@@ -118,36 +118,244 @@
         <div class="container">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link link-dark-gray fw-bold border-bottom border-primary border-2 py-4"
-                        aria-current="page" href="index.html">專案介紹</a>
+                    <a class="nav-link link-dark-gray fs-xs fs-lg-6 py-4 active" aria-current="page" href="#intro"
+                        data-bs-toggle="tab">專案介紹</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-dark-gray py-4" href="#">常見問答</a>
+                    <a class="nav-link link-dark-gray fs-xs fs-lg-6 py-4" aria-current="page" href="#faq"
+                        data-bs-toggle="tab">常見問答</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-dark-gray py-4" href="#">目前進度</a>
+                    <a class="nav-link link-dark-gray fs-xs fs-lg-6 py-4" aria-current="page" href="#process"
+                        data-bs-toggle="tab">目前進度</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-dark-gray py-4" href="#">留言</a>
+                    <a class="nav-link link-dark-gray fs-xs fs-lg-6 py-4" aria-current="page" href="#comments"
+                        data-bs-toggle="tab">留言</a>
                 </li>
             </ul>
         </div>
     </section>
     <!-- Content -->
-    <section class="content py-5">
+    <section class="content py-4 py-lg-5">
         <div class="container">
             <div class="row">
+                <!-- Project -->
                 <div class="col-lg-8 pe-lg-4">
-                    <img src="images/p1.jpg" alt="p1" class="w-100 mb-4">
-                    <h2 class="fs-4 fw-bold border-start border-4 border-primary ps-3">施了魔法的照片</h2>
-                    <p class="lh-lg ta-justify mb-4">
-                        受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
-                    </p>
-                    <img src="images/p2.jpg" alt="p2" class="w-100 mb-4">
-                    <h2 class="fs-4 fw-bold border-start border-4 border-primary ps-3">留住當下的美好</h2>
-                    <p class="lh-lg ta-justify">
-                        受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
-                    </p>
+                    <!-- Tab -->
+                    <div class="tab-content">
+                        <!-- Project Intro -->
+                        <div id="intro" class="tab-pane fade show active">
+                            <img src="images/p1.jpg" alt="p1" class="w-100 mb-4">
+                            <h2 class="fs-4 fw-bold border-start border-4 border-primary ps-3">施了魔法的照片</h2>
+                            <p class="lh-lg ta-justify mb-4">
+                                受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
+                            </p>
+                            <img src="images/p2.jpg" alt="p2" class="w-100 mb-4">
+                            <h2 class="fs-4 fw-bold border-start border-4 border-primary ps-3">留住當下的美好</h2>
+                            <p class="lh-lg ta-justify">
+                                受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
+                            </p>
+                        </div>
+                        <!-- Project Faq -->
+                        <div id="faq" class="tab-pane fade">
+                            <article class="border border-gray rounded-4">
+                                <div class="title position-relative py-12 px-20 cursor-pointer"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false"
+                                    aria-controls="collapseExample1">
+                                    <h2 class="fs-xs ls-1 fw-normal mb-0"><span
+                                            class="badge bg-primary font-en text-body fs-6 py-2 me-3">Q1</span>影片拍完之後可以編輯嗎？
+                                    </h2>
+                                    <i
+                                        class="fas fa-chevron-down position-absolute top-50 end-3 translate-middle-y"></i>
+                                </div>
+                                <div class="collapse border-top" id="collapseExample1">
+                                    <p class="fs-xs text-secondary ls-1 mb-0 p-3 ta-justify">
+                                        可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="border border-gray rounded-4 mt-3">
+                                <div class="title position-relative py-12 px-20 cursor-pointer"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false"
+                                    aria-controls="collapseExample2">
+                                    <h2 class="fs-xs ls-1 fw-normal mb-0"><span
+                                            class="badge bg-primary font-en text-body fs-6 py-2 me-3">Q2</span>有提供保固或維修服務嗎？
+                                    </h2>
+                                    <i
+                                        class="fas fa-chevron-down position-absolute top-50 end-3 translate-middle-y"></i>
+                                </div>
+                                <div class="collapse border-top" id="collapseExample2">
+                                    <p class="fs-xs text-secondary ls-1 mb-0 p-3 ta-justify">
+                                        產的交調像評子電會有她藝象標：信我住方。
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="border border-gray rounded-4 mt-3">
+                                <div class="title position-relative py-12 px-20 cursor-pointer"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false"
+                                    aria-controls="collapseExample3">
+                                    <h2 class="fs-xs ls-1 fw-normal mb-0"><span
+                                            class="badge bg-primary font-en text-body fs-6 py-2 me-3">Q3</span>補充包底片要去哪裡購買呢？
+                                    </h2>
+                                    <i
+                                        class="fas fa-chevron-down position-absolute top-50 end-3 translate-middle-y"></i>
+                                </div>
+                                <div class="collapse border-top" id="collapseExample3">
+                                    <p class="fs-xs text-secondary ls-1 mb-0 p-3 ta-justify">
+                                        童萬別多座，館後社備年支市理作神前、特修用；法子同流圖起策性校對究更買加早裡是華？
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="border border-gray rounded-4 mt-3">
+                                <div class="title position-relative py-12 px-20 cursor-pointer"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false"
+                                    aria-controls="collapseExample4">
+                                    <h2 class="fs-xs ls-1 fw-normal mb-0"><span
+                                            class="badge bg-primary font-en text-body fs-6 py-2 me-3">Q4</span>印出來的拍立得照片需要充電嗎？
+                                    </h2>
+                                    <i
+                                        class="fas fa-chevron-down position-absolute top-50 end-3 translate-middle-y"></i>
+                                </div>
+                                <div class="collapse border-top" id="collapseExample4">
+                                    <p class="fs-xs text-secondary ls-1 mb-0 p-3 ta-justify">
+                                        能來是足的先也合重是入地子河，系令教動收前畫王，人車現弟前總系來作時地告進成排水而表發心稱局的天！
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="border border-gray rounded-4 mt-3">
+                                <div class="title position-relative py-12 px-20 cursor-pointer"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false"
+                                    aria-controls="collapseExample5">
+                                    <h2 class="fs-xs ls-1 fw-normal mb-0"><span
+                                            class="badge bg-primary font-en text-body fs-6 py-2 me-3">Q5</span>運送方式及付款方式有哪些呢？
+                                    </h2>
+                                    <i
+                                        class="fas fa-chevron-down position-absolute top-50 end-3 translate-middle-y"></i>
+                                </div>
+                                <div class="collapse border-top" id="collapseExample5">
+                                    <p class="fs-xs text-secondary ls-1 mb-0 p-3 ta-justify">
+                                        達身目快原輕式子作，食院靈力經務由農。為好失一把縣：生通開母場時英後如力口很同任量，都分覺去部此成壓去賣業感並風藝就分是，活了港年了我動象書早務，至好資水水：理大待，手今列示件兩動獎達可，己法果動去天這國外人英認情失服專，面建合人一樂治為證始。
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="border border-gray rounded-4 mt-3">
+                                <div class="title position-relative py-12 px-20 cursor-pointer"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false"
+                                    aria-controls="collapseExample6">
+                                    <h2 class="fs-xs ls-1 fw-normal mb-0"><span
+                                            class="badge bg-primary font-en text-body fs-6 py-2 me-3">Q6</span>退換貨方式及規則
+                                    </h2>
+                                    <i
+                                        class="fas fa-chevron-down position-absolute top-50 end-3 translate-middle-y"></i>
+                                </div>
+                                <div class="collapse border-top" id="collapseExample6">
+                                    <p class="fs-xs text-secondary ls-1 mb-0 p-3 ta-justify">
+                                        灣規子活車的很，失智記上用字於動變結愛酒打小食其賽條是之國小不教越？候來時立結雖增跟司難部功校例類一答賽政，教動源，離鄉香廣了，農度國面教！
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- Project Process -->
+                        <div id="process" class="tab-pane fade"></div>
+                        <!-- Project Comments -->
+                        <div id="comments" class="tab-pane fade"></div>
+                    </div>
+                    <!-- Mobile Sidebar -->
+                    <div class="d-block d-lg-none mt-5">
+                        <div class="border rounded-4 p-3">
+                            <div class="d-flex align-items-center">
+                                <img src="images/store_img.jpg" alt="缺錢事務所"
+                                    class="rounded-circle border border-primary border-3">
+                                <div class="ms-3">
+                                    <h4 class="fs-5 ls-2">缺錢事務所</h4>
+                                    <div>已發起 1 個專案</div>
+                                </div>
+                            </div>
+                            <p class="py-3 ls-1">需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉！</p>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <a href="#"
+                                        class="btn btn-secondary btn-sm text-white rounded-circle w-30 h-30 me-2"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="btn btn-secondary btn-sm text-white rounded-circle w-30 h-30"><i
+                                            class="fab fa-youtube"></i></a>
+                                </div>
+                                <a href="#" class="btn btn-outline-secondary btn-sm rounded-pill px-3"><i
+                                        class="far fa-comment-dots me-1"></i>聯絡我們</a>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-light mt-4 mt-lg-3 h5 ls-2 p-2 fw-bold text-center rounded-4 border-start border-end border-4 border-primary">
+                            選擇一個方案來支持</div>
+                        <div class="border border-gray rounded-4 mt-3 overflow-hidden">
+                            <img src="images/plan_img.jpg" alt="買一送一，只有兩百組別錯過" class="img-fluid">
+                            <div class="p-3">
+                                <div
+                                    class="d-flex justify-content-between align-items-center border-bottom pb-2 text-secondary fs-xs">
+                                    <div class="ls-2">限時優惠</div>
+                                    <div class="font-en">2 days 20:05:20</div>
+                                </div>
+                                <h3 class="fs-sm ls-2 fw-bold mt-2">買一送一，只有兩百組別錯過</h3>
+                                <div class="font-en fs-4 fw-bold">NT$ 1600</div>
+                                <div class="d-flex mt-2">
+                                    <span class="badge fw-normal bg-gray text-secondary fs-2xs px-3 me-2">已被贊助88次</span>
+                                    <span class="badge fw-normal bg-secondary fs-2xs px-3">限量<span
+                                            class="text-primary">200</span>個</span>
+                                </div>
+                                <p class="text-secondary ta-justify ls-1 mt-2">
+                                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                                </p>
+                                <a href="#donate"
+                                    class="btn btn-primary link-dark-gray fw-bold rounded-pill w-100 py-12">贊助此專案</a>
+                            </div>
+                        </div>
+                        <div class="border border-gray rounded-4 mt-3 overflow-hidden">
+                            <img src="images/plan_img.jpg" alt="買一送一，只有兩百組別錯過" class="img-fluid">
+                            <div class="p-3">
+                                <div
+                                    class="d-flex justify-content-between align-items-center border-bottom pb-2 text-secondary fs-xs">
+                                    <div class="ls-2">限時優惠</div>
+                                    <div class="font-en">2 days 20:05:20</div>
+                                </div>
+                                <h3 class="fs-sm ls-2 fw-bold mt-2">買一送一，只有兩百組別錯過</h3>
+                                <div class="font-en fs-4 fw-bold">NT$ 1600</div>
+                                <div class="d-flex mt-2">
+                                    <span class="badge fw-normal bg-gray text-secondary fs-2xs px-3 me-2">已被贊助88次</span>
+                                    <span class="badge fw-normal bg-secondary fs-2xs px-3">限量<span
+                                            class="text-primary">200</span>個</span>
+                                </div>
+                                <p class="text-secondary ta-justify ls-1 mt-2">
+                                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                                </p>
+                                <a href="#donate"
+                                    class="btn btn-primary link-dark-gray fw-bold rounded-pill w-100 py-12">贊助此專案</a>
+                            </div>
+                        </div>
+                        <div class="border border-gray rounded-4 mt-3 overflow-hidden">
+                            <img src="images/plan_img.jpg" alt="買一送一，只有兩百組別錯過" class="img-fluid">
+                            <div class="p-3">
+                                <div
+                                    class="d-flex justify-content-between align-items-center border-bottom pb-2 text-secondary fs-xs">
+                                    <div class="ls-2">限時優惠</div>
+                                    <div class="font-en">2 days 20:05:20</div>
+                                </div>
+                                <h3 class="fs-sm ls-2 fw-bold mt-2">買一送一，只有兩百組別錯過</h3>
+                                <div class="font-en fs-4 fw-bold">NT$ 1600</div>
+                                <div class="d-flex mt-2">
+                                    <span class="badge fw-normal bg-gray text-secondary fs-2xs px-3 me-2">已被贊助88次</span>
+                                    <span class="badge fw-normal bg-secondary fs-2xs px-3">限量<span
+                                            class="text-primary">200</span>個</span>
+                                </div>
+                                <p class="text-secondary ta-justify ls-1 mt-2">
+                                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                                </p>
+                                <a href="#donate"
+                                    class="btn btn-primary link-dark-gray fw-bold rounded-pill w-100 py-12">贊助此專案</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Donate Form -->
                     <div id="donate" class="mt-6">
                         <div class="position-relative">
                             <div class="progress h-3">
@@ -201,7 +409,7 @@
                     </div>
                 </div>
                 <!-- Sidebar -->
-                <div class="col-lg-4 ps-lg-4 mt-4 mt-lg-0">
+                <div class="col-lg-4 ps-lg-4 mt-4 mt-lg-0 d-none d-lg-block ">
                     <div class="border rounded-4 p-3">
                         <div class="d-flex align-items-center">
                             <img src="images/store_img.jpg" alt="缺錢事務所"

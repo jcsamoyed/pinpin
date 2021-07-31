@@ -1,3 +1,4 @@
+// button
 .btn i {
     transition-duration: .15s;
 }
@@ -16,4 +17,21 @@
 
 .btn-outline-secondary:hover i {
     color: #FF785E;
+}
+
+// list
+.list {
+    z-index: 10;
+}
+
+.list {
+    .link-dark-gray {
+        border-bottom: 2px solid #fff;
+    }
+
+    .link-dark-gray.active,
+    .link-dark-gray:hover,
+    .link-dark-gray:focus {
+        border-bottom: 2px solid #FFDF65;
+    }
 }

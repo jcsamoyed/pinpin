@@ -12117,6 +12117,12 @@ body {
   font-size: 12px;
 }
 
+@media (min-width: 992px) {
+  .fs-lg-6 {
+    font-size: 16px;
+  }
+}
+
 .rounded-4 {
   border-radius: 0.5rem;
 }
@@ -12151,6 +12157,11 @@ body {
   }
 }
 
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .py-12 {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -12160,8 +12171,24 @@ body {
   margin-top: 96px;
 }
 
+.ms-6 {
+  margin-left: 56px;
+}
+
+.end-3 {
+  right: 16px;
+}
+
 .bg-gray {
   background: #E8E8DB;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .btn i {
@@ -12183,6 +12210,20 @@ body {
 
 .btn-outline-secondary:hover i {
   color: #FF785E;
+}
+
+.list {
+  z-index: 10;
+}
+
+.list .link-dark-gray {
+  border-bottom: 2px solid #fff;
+}
+
+.list .link-dark-gray.active,
+.list .link-dark-gray:hover,
+.list .link-dark-gray:focus {
+  border-bottom: 2px solid #FFDF65;
 }
 
 .product {
