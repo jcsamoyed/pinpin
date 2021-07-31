@@ -2,6 +2,13 @@ body {
     font-family: "Noto Sans TC", "微軟正黑體", serif, cursive, ;
 }
 
+// image
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 // text
 .font-en {
     font-family: "Baloo Tamma 2", cursive;

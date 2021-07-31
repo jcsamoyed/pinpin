@@ -1,0 +1,7 @@
+.hover-box {
+    transition-duration: .15s;
+
+    &:hover {
+        box-shadow: 0 0 8px 0 rgba(73, 72, 70, 0.15);
+    }
+}
