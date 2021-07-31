@@ -12095,6 +12095,10 @@ body {
      object-fit: cover;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .font-en {
   font-family: "Baloo Tamma 2", cursive;
   line-height: 1;
